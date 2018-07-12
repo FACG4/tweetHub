@@ -1,0 +1,22 @@
+.mainBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoDiv{
+  position: relative;
+}
+.logoDiv  {
+  width: 92%;
+transform: translate(-46%);
+position: absolute;
+left: 50%;
+top: 18%;
+}
+.logoDiv  img{
+  width: 90%;
+}
+.searchForm{
+  margin-top: 50%;
+  width: 100%;
+}

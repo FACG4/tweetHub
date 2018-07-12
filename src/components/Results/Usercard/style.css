@@ -1,0 +1,66 @@
+.UserCard{
+  width: 100%;
+}
+.profileDiv{
+  width: 100%;
+  position: relative;
+  min-height: 135px;
+}
+.profileDiv > img{
+  width: 100%;
+}
+
+.avatarDiv{
+  width: 25%;
+  position: absolute;
+  top: 60%;
+  left: 6%;
+}
+.avatarDiv img{
+  width: 100%;
+  border-radius: 50%;
+  border-bottom:2px solid #6dd5fa;
+  border-left:2px solid #6dd5fa;
+  border-right:2px solid #6dd5fa
+}
+.userNameDiv{
+  text-align: left;
+  left: 36%;
+  position: absolute;
+  margin-top: 0px;
+
+}
+.userNameDiv a{
+text-decoration: none;
+color: black
+}
+.descriptionDiv{
+  margin-top: 15%
+}
+.userNameDiv h3{
+margin: 1px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+text-transform: capitalize;
+}
+.userNameDiv p{
+margin: 1px;
+
+}
+.dateDiv{
+  font-weight: 300;
+  font-size: 18px;
+  margin: 17% auto 0 auto;
+  width: 78%;
+  background: #6dd5fa26;
+  height: 30px;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+
+.dateDiv i{
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 5%;
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+.form{
+width: 100%;
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.react-datepicker-wrapper div{
+  width: 100%;
+}
+.inputUserName, .dateInput{
+  border-radius: 2rem;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: .1rem solid #ecf0f1;
+    box-shadow: none;
+    box-sizing: inherit;
+    font-family: inherit;
+    height: 48px;
+    padding: .4rem .6rem;
+    width: 75%;
+    touch-action: manipulation;
+    overflow: visible;
+    outline: none;
+    margin:20px;
+    font-size: 1.8rem;
+    padding-left: 8%;
+    border: 1px solid #6dd5fa;
+}
+
+.submitButton{
+  outline: none;
+border-radius: 2rem;
+border: none;
+color: #fefefe;
+cursor: pointer;
+display: inline-block;
+padding: .4rem .8rem;
+text-align: center;
+white-space: nowrap;
+background-color: #80CCED;
+width: 43%;
+height: 50px;
+font-size: 1.8rem;
+margin-top: 10%;
+font-weight: 500;
+}
+.react-datepicker-popper{
+  left: 21% !important;
+}
+.error-msg {
+  padding: 10px;
+  border-radius: 1.5rem;
+  color: #D8000C;
+  background-color: #ffd10559;
+  width: 70%;
+  margin: 7% auto;
+  font-size: 25px;
+  word-spacing: .3em
+}
+.error-msg i{
+  margin-right: 8px;
+}
