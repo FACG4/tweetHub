@@ -10,7 +10,7 @@ class Search extends Component{
     return (
       <div>
       <Header />
-      <SearchBody changeView={this.props.changeView}/>
+      <SearchBody updateResults={this.props.updateResults} username={this.props.username}/>
       </div>
     )
   }

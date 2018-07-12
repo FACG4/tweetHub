@@ -1,0 +1,19 @@
+header{
+  position: relative;
+  display: flex;
+  background-color: #80CCED;
+  margin: 0 auto;
+  height: 90px;
+  align-items: center;
+
+}
+header img {
+  width: 165px;
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%);
+}

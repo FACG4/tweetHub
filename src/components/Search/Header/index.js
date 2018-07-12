@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import image from './header.svg';
 
 
 const Header =()=> {
   return (
     <header>
-    <img src="https://www.freelogodesign.org/Content/img/slide-logo-3.png" alt=""  />
+    <img src={image} alt="header logo"  />
     </header>
   )
 }
